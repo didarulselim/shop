@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+}
+@import url('/assets/fonts/AvenirNextLTPro-Bold.otf');
+@import url('/assets/fonts/AvenirNextLTPro-It.otf');
+@import url('/assets/fonts/AvenirNextLTPro-Regular.otf');
+@import url('/assets/fonts/Garamond Regular.ttf');
+body{
+  font-family: "Avenir Next",sans-serif;
+
+}
+.navbar {
+  padding-left: 100px;
+}
+.logo {
+  margin-right: 20px;
+}
+.nav-menu li a{
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.nav-menu  .active .nav-link, 
+.nav-menu .nav-item .nav-link:hover, 
+.nav-menu .nav-item .nav-link:focus{
+  color: #1A2A47 !important;
+}
+.top-content {
+  word-spacing: 2px;
+}
+.top-content h3 {
+  font-family: "goramond";
+  font-size: 38px;
+  color: #1A2A47;
+  padding: 1%;
+}
+.top-content p {
+  color: #1A2A47;
+  padding: 1% 19%;
+}
+
+.home-img img {
+
+}
+.home-service {
+  padding: 50px 25px;
+}
+.home-service svg {
+  margin-bottom: 25px;
+  width: 62px;
+  height: 75px;
+}
+
+.home-service .service {
+  margin-bottom: 20px;
+}
+.home-service .service h5 {
+ font-size: 16px,
+ line-height: 24px;
+ color: #042362;
+ font-weight: 700;
+}
+.home-service .service p {
+  line-height: 21px;
+  color: #042362;
+  padding: 10px 40px;
+}
+
+/*Shop Section*/
+marquee {
+    background-color: #1C315C;
+    padding: 5px;
+    color: #fff;
+    font-family: "Avenir Next",sans-serif;
+    font-weight: 400;
+}
+
+marquee p {
+    margin: 0;
+    padding: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #1C315C !important;
+}
+
+.card-img-slider img {
+  width: 100%;
+  height: 250px;
+}
+.card .card-title {
+  text-transform: uppercase;
+}
+/*Shop Section*/
+
+footer {
+ background-color: #213E55;
+}
+footer a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card-item {
+  margin-bottom: 30px;
+}
+.star-rating {
+  margin-right: 5px;
+}
+
+.star-rating .fa-star {
+  color: #1C315C;
+}
+.rating-count {
+  color: #1C315C;
+}
+.rating-count h5 span {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.order {
+  display: inline-flex;
+}
+.order .btn-buy {
+  margin-right: 5px;
+}
+.order .btn-buy .btn {
+  border-radius: 0px;
+  background-color: #1C315C;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px;
+}
+
+.order .price p{
+  color: #1C315C;
+}
+.price {
+  height: 50px;
+}
+.price h3 {
+  margin: 0;
+}
