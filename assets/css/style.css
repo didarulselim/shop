@@ -78,7 +78,7 @@ marquee {
     font-weight: 400;
 }
 
-marquee p {
+marquee h4 {
     margin: 0;
     padding: 10px;
 }
@@ -127,7 +127,7 @@ footer a {
   display: inline-flex;
 }
 .order .btn-buy {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .order .btn-buy .btn {
   border-radius: 0px;
@@ -139,11 +139,14 @@ footer a {
 }
 
 .order .price p{
-  color: #1C315C;
+  color: #9EC430;
 }
 .price {
   height: 50px;
 }
 .price h3 {
   margin: 0;
+  font-family: "goramond";
+  color: #1A2A47;
+  font-weight: 700;
 }
